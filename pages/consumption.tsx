@@ -2,10 +2,21 @@ import styles from '../styles/Consumption.module.css';
 import type { NextPage } from 'next'
 import Head from 'next/head';
 import useTranslation from 'next-translate/useTranslation';
+import { initializeApp } from "firebase/app";
+import { firebaseConfig } from '../components/firebase';
+import React from 'react';
 
 const Consumption: NextPage = () => {
   
   const { t, lang } = useTranslation('common');
+
+  const app = initializeApp(firebaseConfig);
+
+
+  function handleSubmit(){
+
+  };
+
 
   return (
       <>
@@ -23,9 +34,7 @@ const Consumption: NextPage = () => {
         <section className={styles.section_energy_consumption}>
 
           <h2>Gib deine aufgenommene Energie ein!</h2>
-          
-
-          <form action='' method='post'>
+          <form>
 
             <div className={styles.consumption_form_div}>
               <label htmlFor='search_absorpe_consumption'>Training</label>
@@ -42,7 +51,7 @@ const Consumption: NextPage = () => {
               <input type='number' name='consumption_kcal' id='consumption_kcal' />
             </div>
 
-            <input type="submit" value="Energie eintragen" id='consumption_submit' className={styles.consumption_form_submit}/>
+            <button id='consumption_submit' className={styles.consumption_form_submit} onClick={handleSubmit}>Energie eintragen</button>
 
           </form>
 
@@ -56,7 +65,7 @@ const Consumption: NextPage = () => {
           
           <h2>Füge ein neues Training hinzu!</h2>
 
-          <form action='' method='post'>
+          <form>
 
             <div className={styles.consumption_add_form_div}>
               <label htmlFor='consumption_add_name'>Was ?</label>
@@ -85,9 +94,7 @@ const Consumption: NextPage = () => {
 
             </div>
 
-
-
-            <input type="submit" value="Training eintragen" id='consumption_add_submit' className={styles.consumption_add_form_submit}/>
+            <button id='consumption_add_submit' className={styles.consumption_add_form_submit} onClick={handleSubmit}>Training eintragen</button>
 
           </form>
 

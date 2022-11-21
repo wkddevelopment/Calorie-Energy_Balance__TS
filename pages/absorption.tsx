@@ -7,6 +7,11 @@ const absorption: NextPage = () => {
   
   const { t, lang } = useTranslation('common');
 
+
+  function handleSubmit(){
+
+  };
+
   return (
       <>
          
@@ -25,7 +30,7 @@ const absorption: NextPage = () => {
           <h2>Gib deine aufgenommene Energie ein!</h2>
           
 
-          <form action='' method='post'>
+          <form>
 
           <div className={styles.absorption_form_div}>
               <label htmlFor='search_absorpe_absorption'>Produkt</label>
@@ -42,7 +47,7 @@ const absorption: NextPage = () => {
               <input type='number' name='amount_absorpe_absorption' id='amount_absorpe_absorption' />
             </div>
 
-            <input type="submit" value="Energie eintragen" id='absorption_submit' className={styles.absorption_form_submit}/>
+            <button id='absorption_submit' className={styles.absorption_form_submit} onClick={handleSubmit}>Energie eintragen</button>
 
           </form>
 
@@ -55,7 +60,7 @@ const absorption: NextPage = () => {
           
           <h2>Füge ein neues Produkt hinzu!</h2>
 
-          <form action='' method='post'>
+          <form>
 
             <div className={styles.absorption_add_form_div}>
               <label htmlFor='absorption_add_name'>Produktname</label>
@@ -87,7 +92,7 @@ const absorption: NextPage = () => {
               <input type='number' name='absorption_add_protein' id='absorption_add_protein' />
             </div>
 
-            <input type="submit" value="Produkt eintragen" id='absorption_add_submit' className={styles.absorption_add_form_submit}/>
+            <button id='absorption_add_submit' className={styles.absorption_add_form_submit} onClick={handleSubmit}>Produkt eintragen</button>
 
           </form>
 
