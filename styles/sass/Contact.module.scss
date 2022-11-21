@@ -1,0 +1,20 @@
+@import './ColorsAndDesign.scss';
+
+
+.contact_title_div {
+    margin-top: 5vh;
+    text-align: center;
+
+    > .contact_title_h1 {
+
+    }
+
+    > .contact_title_p {
+        margin-top: 2vh;
+    }
+
+    > .contact_title_website{
+        font-weight: bolder;
+        color: $wkd-intense-blue;
+    }
+}

@@ -24,15 +24,17 @@ $wkd-darkviolett: rgb(102, 0, 102);
 $wkd-manner: rgb(235, 184, 173);
 
 /*? === design === */
-$main-colour: $wkd-darkgrey;
+$main-colour: $wkd-pastell-blue;
 $counter-colour: $wkd-orange;
+$background-color: $wkd-white;
 $design-strokes-colour: $wkd-grey;
 $design-strokes-accent-colour: $wkd-pinkviolett;
 $shadows: $wkd-white;
+$borders: $wkd-white;
 
 /*? === text === */
 $text-optimal-width: clamp(45ch, 50%, 75ch);
-$text-main-colour: $wkd-white;
+$text-main-colour: $wkd-black;
 $link-hover-color: $wkd-red;
 $font-futura: futura-pt,sans-serif;
 $fs-400: 1rem;

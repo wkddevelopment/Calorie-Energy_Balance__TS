@@ -1,0 +1,72 @@
+/* ==================  
+?    ===  Colour-Palette  ===
+.     ================== */
+/* filter: brightness(0) saturate(100%) invert(44%) sepia(24%) saturate(4068%) hue-rotate(1deg) brightness(98%) contrast(106%); */
+/* filter: brightness(0) saturate(100%) invert(19%) sepia(63%) saturate(4179%) hue-rotate(293deg) brightness(123%) contrast(136%); */
+/*? === design === */
+/*? === text === */
+/* futura: font-family: futura-pt,sans-serif; */
+@import url("https://use.typekit.net/izw3hmc.css");
+.absorption_title_h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.section_energy_absorption {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1vh;
+  margin-bottom: 2vh;
+}
+.section_energy_absorption > form {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}
+.section_energy_absorption > form > .absorption_form_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: end;
+  gap: 2vw;
+}
+.section_energy_absorption > form > .absorption_form_div > label {
+  width: 50vw;
+}
+.section_energy_absorption > form > .absorption_form_div > .absorption_form_date {
+  width: 50vw;
+}
+.section_energy_absorption > form > .absorption_form_submit {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section_absorption_add {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+}
+.section_absorption_add > form {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}
+.section_absorption_add > form > .absorption_add_form_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: end;
+  gap: 2vw;
+}
+.section_absorption_add > form > .absorption_add_form_div > label {
+  width: 50vw;
+}
+.section_absorption_add > form > .absorption_add_form_submit {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*# sourceMappingURL=absorption.module.css.map */

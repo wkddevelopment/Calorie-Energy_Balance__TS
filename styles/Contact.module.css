@@ -7,27 +7,16 @@
 /*? === text === */
 /* futura: font-family: futura-pt,sans-serif; */
 @import url("https://use.typekit.net/izw3hmc.css");
-.home_title_div {
-  width: 100vw;
-  height: 10vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.contact_title_div {
+  margin-top: 5vh;
   text-align: center;
-  margin-top: 4vh;
-  margin-bottom: 3vh;
 }
-.home_title_div > .home_title_h1 {
-  min-width: 100%;
-  color: #ef5f57;
-  font-size: 5vh;
+.contact_title_div > .contact_title_p {
+  margin-top: 2vh;
+}
+.contact_title_div > .contact_title_website {
+  font-weight: bolder;
+  color: #0000fa;
 }
 
-.section_summary {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  margin-top: 10vh;
-}
-
-/*# sourceMappingURL=Home.module.css.map */
+/*# sourceMappingURL=contact.module.css.map */

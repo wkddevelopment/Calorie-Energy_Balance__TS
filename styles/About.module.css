@@ -7,27 +7,12 @@
 /*? === text === */
 /* futura: font-family: futura-pt,sans-serif; */
 @import url("https://use.typekit.net/izw3hmc.css");
-.home_title_div {
-  width: 100vw;
-  height: 10vh;
+.about_title_div {
+  text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  margin-top: 4vh;
-  margin-bottom: 3vh;
-}
-.home_title_div > .home_title_h1 {
-  min-width: 100%;
-  color: #ef5f57;
-  font-size: 5vh;
+  gap: 2vh;
+  margin-top: 2vh;
 }
 
-.section_summary {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  margin-top: 10vh;
-}
-
-/*# sourceMappingURL=Home.module.css.map */
+/*# sourceMappingURL=about.module.css.map */

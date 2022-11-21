@@ -23,6 +23,9 @@
     }
 }
 
+.navbar_link {
+    color: $wkd-white;
+}
 
 /*#region Navbar Dropdown*/
 
@@ -37,7 +40,7 @@
     display: none;
     position: absolute;
     z-index: 1;
-    background-color: $wkd-darkgrey;
+    background-color: $wkd-grey;
     padding: .5rem;
 }
 

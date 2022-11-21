@@ -1,0 +1,9 @@
+@import './ColorsAndDesign.scss';
+
+.about_title_div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    margin-top: 2vh;
+}

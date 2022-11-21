@@ -14,12 +14,23 @@ const Home: NextPage = () => {
           <title>Calorie-Energy_Balance (WKD-APLHA Version)</title>
         </Head>
 
-        <section>
-          <div className={styles.home_title_div}>
-            <h1 className={styles.home_title_h1}>Calorie-Energy_Balancer</h1>
-            <p className={styles.home_title_p}>Personal calorie/energy calculator to visualize a calorie surplus/deficit.</p>
-          </div>
+        {/* Title */}
+        <div className={styles.home_title_div}>
+          <h1 className={styles.home_title_h1}>Kalorien-Energie Balancer</h1>
+        </div>
+
+        {/* Summary */}
+        <section className={styles.section_summary}>
+          <h2>Heute:</h2>
+          <p id='today'>0</p>
+          <h2>Woche:</h2>
+          <p id='week'>0</p>
+          <h2>Monat:</h2>
+          <p id='month'>0</p>
+          <h2>Jahr:</h2>
+          <p id='year'>0</p>
         </section>
+
       </>
   ) 
 

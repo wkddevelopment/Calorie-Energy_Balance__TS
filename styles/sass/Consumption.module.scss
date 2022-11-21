@@ -1,0 +1,83 @@
+@import './ColorsAndDesign.scss';
+
+.consumption_title_h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.section_energy_consumption{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+
+    > form {
+
+        display: flex;
+        flex-direction: column;
+        gap: 1vh;
+
+        > .consumption_form_div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: end;
+            gap: 2vw;
+
+            > label {
+                width: 50vw;
+            }
+
+            > .consumption_form_date {
+                width: 50vw;
+            }
+
+        }
+
+        > .consumption_form_submit {
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        
+    }
+}
+
+
+.section_consumption_add {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+
+    > form {
+
+        display: flex;
+        flex-direction: column;
+        gap: 1vh;
+
+        > .consumption_add_form_div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: end;
+            gap: 2vw;
+
+            > label {
+                width: 50vw;
+            }
+    
+        }
+
+        > .consumption_add_form_submit {
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        
+    }
+
+}

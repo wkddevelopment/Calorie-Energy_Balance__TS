@@ -26,6 +26,10 @@
   text-align: center;
 }
 
+.navbar_link {
+  color: white;
+}
+
 /*#region Navbar Dropdown*/
 /* The dropdown container */
 .dropdown {
@@ -38,7 +42,7 @@
   display: none;
   position: absolute;
   z-index: 1;
-  background-color: #1d1d1d;
+  background-color: #6b6a6a;
   padding: 0.5rem;
 }
 
